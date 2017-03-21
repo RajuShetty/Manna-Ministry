@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "org.mannaministry.app"
-        version   = "1.0.4"
-		android-versionCode="10004"> 
+        version   = "1.0.5"
+		android-versionCode="10005"> 
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>Manna Ministry</name>
@@ -16,7 +16,7 @@
 
     <author href="http://mannaministry.in/" email="Rajushetty.b@gmail.com">
         Manna Ministry
-    </author>
+    </author> 
 
     <platform name="ios"></platform>
     <platform name="android"></platform>
