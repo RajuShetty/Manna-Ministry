@@ -50,10 +50,10 @@
         <gap:plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
     </platform>
     
-            <!-- Crosswalk enhances Android performance, but makes the app size larger -->
-    <gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.2.0" /> 
+            <!-- Crosswalk enhances Android performance, but makes the app size larger 
+    <gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.2.0" /--> 
 
-    <!-- to show app faster, set autohide to true. iOS only -->
+    <!-- to show app faster, set autohide to true. iOS only --> 
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="webviewbounce" value="false" />
