@@ -29,6 +29,7 @@
 
     <!-- You can comment out features you aren't using -->
     
+															<preference name="android-minSdkVersion" value="19"/>			 
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
@@ -95,6 +96,8 @@
 
     <content src="index.html" />
     <access origin="*" subdomains="true" />
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
     <allow-navigation href="*" /><!-- iOS render iframe content -->
     <!-- https://github.com/phonegap/build/issues/508 -->
     <allow-intent href="tel:*" />
