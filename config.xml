@@ -15,22 +15,12 @@
     <author href="http://mannaministry.in/" email="Rajushetty.b@gmail.com">
         Manna Ministry
     </author> 
-
-    <platform name="android"></platform>
  <!-- one signal push -->
 	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
 <!-- Requires cli-6.4.0 but we recommend using the latest version. -->
 <preference name="phonegap-version" value="cli-7.0.1" />
-	<!-- one signal push End -->
-
- 
-
-														 
-															
-  
-    <!-- You can comment out features you aren't using -->
-    
-															<preference name="android-minSdkVersion" value="19"/>			 
+	<!-- one signal push End -->   
+	<preference name="DisallowOverscroll" value="true"/>	       <preference name="android-minSdkVersion" value="19"/>			 
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
@@ -103,8 +93,7 @@
     <access origin="*" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
-    <allow-navigation href="*" /><!-- iOS render iframe content -->
-    <!-- https://github.com/phonegap/build/issues/508 -->
+    
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
