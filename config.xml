@@ -95,7 +95,7 @@
     <icon src="icon.png" />
 
     <content src="index.html" />
-    <access origin="*" subdomains="true" />
+    <access origin="*" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
     <allow-navigation href="*" /><!-- iOS render iframe content -->
