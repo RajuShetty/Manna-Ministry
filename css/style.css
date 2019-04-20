@@ -168,6 +168,12 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 .bg-10 {
 	background: url('../img/background.jpg') no-repeat center / cover;
 }
+.bg-11 {
+	background: url('../img/stories.jpg') no-repeat center / cover;
+}
+.bg-12 {
+	background: url('../img/wallsbg.jpg') no-repeat center / cover;
+}
 .bg-20 {
 	background: url('../img/20.jpg') no-repeat center / cover;
 }
